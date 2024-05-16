@@ -17,8 +17,14 @@ body{
     border-color: black;
     border-style:solid;
     border-width: 1px;
-    box-shadow: 10px 10px #000000;
+    box-shadow: 5px 5px #000000;
+    transition: box-shadow 0.5s ease-out;
+    cursor: pointer;
     
+}
+
+.second:hover {
+    box-shadow: 10px 10px #000000;
 }
 
 .third{
@@ -35,7 +41,12 @@ h1{
     font-size: 20px;
     font-weight:700;
 }
-
+.second h1{
+    transition: color 0.5s ease;
+}
+.second:hover h1{
+    color: #F5D04E;
+}
 .fifth{
     font-weight:700;
     font-size: 12px;
